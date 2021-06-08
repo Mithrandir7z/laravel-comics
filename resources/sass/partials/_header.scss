@@ -1,0 +1,60 @@
+//INIZIO HEADER
+header {
+
+    //INIZIO ROW TOP
+    .row_top {
+        background-color: $brand_color;
+
+        ul {
+            margin: 0;
+            list-style-type: none;
+            display: flex;
+            li {
+                margin-left: 20px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 13px;
+                    color: $primary_color;
+                }
+            }
+        }
+    }
+    //FINE ROW TOP
+
+
+
+    //INIZIO NAV
+    nav {
+        
+        .menu {
+            display: flex;
+
+            .logo {
+                padding: 26px;
+                img {
+                    height: 40px;
+                    width: auto;
+                }
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+
+                li {
+                    padding: 26px;
+
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    //FINE NAV
+
+
+}
+//FINE HEADER

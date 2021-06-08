@@ -1,36 +1,4 @@
-//common
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import 'partials/common';
+@import 'partials/header';
+@import 'partials/main';
 
-img {
-    width: 100%;
-    display: block;
-}
-
-.margine {
-    margin: 0 250px;
-}
-
-header {
-
-    .row_top {
-        background-color: #0282f9;
-
-        ul {
-            margin: 0;
-            list-style-type: none;
-            display: flex;
-            li {
-                margin-left: 20px;
-
-                a {
-                    text-decoration: none;
-                    font-size: 13px;
-                }
-            }
-        }
-    }
-}

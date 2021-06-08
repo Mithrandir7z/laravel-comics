@@ -32,3 +32,29 @@ header .row_top ul li a {
   font-size: 13px;
 }
 
+header nav .menu {
+  display: flex;
+}
+
+header nav .menu .logo {
+  padding: 26px;
+}
+
+header nav .menu .logo img {
+  height: 40px;
+  width: auto;
+}
+
+header nav .menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav .menu ul li {
+  padding: 26px;
+}
+
+header nav .menu ul li a {
+  text-decoration: none;
+}
+
