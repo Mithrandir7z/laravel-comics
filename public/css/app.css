@@ -66,3 +66,25 @@ header .jumbotron img {
   background-size: cover;
 }
 
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+main ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main ul li {
+  width: calc( 100% / 6 );
+  padding: 10px 0;
+}
+
+main ul li img {
+  width: 200px;
+  height: auto;
+}
+
