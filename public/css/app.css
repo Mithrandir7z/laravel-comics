@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-width: 1200px;
 }
 
 img {
@@ -35,6 +36,7 @@ header .row_top ul li a {
 
 header nav .menu {
   display: flex;
+  justify-content: space-between;
 }
 
 header nav .menu .logo {
@@ -42,7 +44,7 @@ header nav .menu .logo {
 }
 
 header nav .menu .logo img {
-  height: 40px;
+  height: 50px;
   width: auto;
 }
 
@@ -52,10 +54,15 @@ header nav .menu ul {
 }
 
 header nav .menu ul li {
-  padding: 26px;
+  padding: 8px;
+  line-height: 52px;
 }
 
 header nav .menu ul li a {
   text-decoration: none;
+}
+
+header .jumbotron img {
+  background-size: cover;
 }
 

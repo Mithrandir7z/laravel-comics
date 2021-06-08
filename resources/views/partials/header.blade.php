@@ -15,14 +15,18 @@
 
     </div>
 
+
+    <!--INIZIO NAVBAR-->
     <nav>
         <div class="margine">
             <div class="menu">
                 
+                <!--LOGO-->
                 <div class="logo">
                     <img src="{{ asset('img/dc-logo.png') }}" alt="">
                 </div>
 
+                <!--INIZIO MENU-->
                 <ul>
                     <li>
                         <a href="">CHARACTERS</a>
@@ -64,14 +68,16 @@
                         <a href="">SHOP</a>
                     </li>
 
-                    <!--INPUT-->
-                    <li>
-                        <label for="">
-                            <input type="text">
-                        </label>
-                    </li>
                 </ul>
+                <!--FINE MENU-->
             </div>
         </div>
     </nav>
+    <!--FINE NAVBAR-->
+
+
+    
+    <div class="jumbotron">
+        <img src="{{ asset('img/jumbotron.jpg') }}" alt="">
+    </div>
 </header>

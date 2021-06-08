@@ -29,11 +29,12 @@ header {
         
         .menu {
             display: flex;
+            justify-content: space-between;
 
             .logo {
                 padding: 26px;
                 img {
-                    height: 40px;
+                    height: 50px;
                     width: auto;
                 }
             }
@@ -43,7 +44,8 @@ header {
                 display: flex;
 
                 li {
-                    padding: 26px;
+                    padding: 8px;
+                    line-height: 52px;
 
 
                     a {
@@ -55,6 +57,13 @@ header {
     }
     //FINE NAV
 
+
+    .jumbotron {
+
+        img {
+            background-size: cover;
+        }
+    }
 
 }
 //FINE HEADER
