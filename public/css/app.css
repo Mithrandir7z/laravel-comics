@@ -30,6 +30,7 @@ header .row_top ul li {
 header .row_top ul li a {
   text-decoration: none;
   font-size: 13px;
+  color: black;
 }
 
 header nav .menu {
