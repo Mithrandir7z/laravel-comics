@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+//ROUTE HOME.BLADE.PHP
 Route::get('/', function () {
 
     $comics_array = config("comics");
@@ -25,3 +27,26 @@ Route::get('/', function () {
 
     return view('home', $data);
 })->name('home');
+
+
+
+//ROUTE PRODUCT.BLADE.PHP
+Route::get('/product/{id}', function ($id) {
+
+    $comics_array = config("comics");
+
+    $product = [];
+
+    foreach($comics_array as $comic) {
+        
+        if($comic['id'] == $id) {
+            $product = $comic;
+        }
+    }
+
+    $data = [
+        'product' => $product
+    ];
+
+    return view('product', $data);
+})->name('product');

@@ -1,7 +1,7 @@
+//CSS HOME.BLADE.PHP
 main {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: $primary_color;
 
     ul {
         list-style-type: none;
@@ -15,6 +15,41 @@ main {
             img {
                 width: 200px;
                 height: auto;
+            }
+        }
+    }
+}
+
+
+
+//CSS PRODUCT.BLADE.PHP
+.product-info {
+
+    .container {
+
+        h1 {
+            text-align: center;
+            font-size: 23px;
+        }
+
+        .container_green_row {
+            display: flex;
+            margin: 0 70px;
+            color: white;
+
+            .green_row_left {
+                background-color: rgb(12, 201, 12);
+                padding: 10px;
+                width: 400px;
+                display: flex;
+                justify-content: space-between;
+                border-right: 1px solid black;
+            }
+    
+            .green_row_right {
+                background-color: rgb(12, 201, 12);
+                padding: 10px;
+                width: 171px;
             }
         }
     }

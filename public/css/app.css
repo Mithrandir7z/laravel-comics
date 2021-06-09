@@ -17,51 +17,41 @@ img {
 header .row_top {
   background-color: #0282f9;
 }
-
 header .row_top ul {
   margin: 0;
   list-style-type: none;
   display: flex;
 }
-
 header .row_top ul li {
   margin-left: 20px;
 }
-
 header .row_top ul li a {
   text-decoration: none;
   font-size: 13px;
   color: black;
 }
-
 header nav .menu {
   display: flex;
   justify-content: space-between;
 }
-
 header nav .menu .logo {
   padding: 26px;
 }
-
 header nav .menu .logo img {
   height: 50px;
   width: auto;
 }
-
 header nav .menu ul {
   list-style-type: none;
   display: flex;
 }
-
 header nav .menu ul li {
   padding: 8px;
   line-height: 52px;
 }
-
 header nav .menu ul li a {
   text-decoration: none;
 }
-
 header .jumbotron img {
   background-size: cover;
 }
@@ -69,22 +59,47 @@ header .jumbotron img {
 main {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: black;
 }
-
 main ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
-
 main ul li {
   width: calc( 100% / 6 );
   padding: 10px 0;
 }
-
 main ul li img {
   width: 200px;
   height: auto;
 }
 
+.product-info .container h1 {
+  text-align: center;
+  font-size: 23px;
+}
+.product-info .container .container_green_row {
+  display: flex;
+  margin: 0 70px;
+  color: white;
+}
+.product-info .container .container_green_row .green_row_left {
+  background-color: #0cc90c;
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  border-right: 1px solid black;
+}
+.product-info .container .container_green_row .green_row_right {
+  background-color: #0cc90c;
+  padding: 10px;
+  width: 171px;
+}
+
+footer {
+  background-image: url("../img/footer-bg.jpg");
+}
+footer h3 {
+  color: red;
+}
