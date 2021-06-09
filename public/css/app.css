@@ -132,6 +132,21 @@ main ul li img {
   text-align: right;
   margin: 0;
 }
+.product-info .information {
+  display: flex;
+}
+.product-info .information .talent {
+  width: 50%;
+}
+.product-info .information .talent .art_by .left {
+  width: 30%;
+}
+.product-info .information .talent .art_by .right {
+  width: 70%;
+}
+.product-info .information .specs {
+  width: 50%;
+}
 
 footer {
   background-image: url("../img/footer-bg.jpg");

@@ -95,4 +95,28 @@ main {
         }
     }
 
+
+    //information
+    .information {
+        display: flex;
+
+        .talent {
+            width: 50%;
+
+            .art_by {
+                .left {
+                    width: 30%;
+                }
+
+                .right {
+                    width: 70%;
+                }
+            }
+        }
+
+        .specs {
+            width: 50%;
+        }
+    }
+
 }

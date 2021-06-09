@@ -47,6 +47,36 @@
                 <img src="{{asset('img/a-d-v.jpg')}}" alt="{{$product['title']}}">
             </div>
         </div>
+
+        <div class="information">
+            <div class="talent">
+                <div class="art_by">
+                    <div class="left">
+                        Art by:
+                    </div>
+
+                    <div class="right">
+
+                    </div>
+                </div>
+
+                <div class="written_by">
+                    <div class="left">
+                        written by:
+                    </div>
+
+                    <div class="right">
+                        <p>
+                            {{dd($product['artists'])}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="specs">
+
+            </div>
+        </div>
          
     </div>  
 
