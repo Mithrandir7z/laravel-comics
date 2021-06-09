@@ -56,7 +56,11 @@
                     </div>
 
                     <div class="right">
-
+                        <p>
+                            @foreach ($product['artists'] as $artist)
+                                {{$artist}}
+                            @endforeach
+                        </p>
                     </div>
                 </div>
 
@@ -67,14 +71,16 @@
 
                     <div class="right">
                         <p>
-                            {{dd($product['artists'])}}
+                            @foreach ($product['writers'] as $writer)
+                                {{$writer}}
+                            @endforeach
                         </p>
                     </div>
                 </div>
             </div>
 
             <div class="specs">
-
+                
             </div>
         </div>
          

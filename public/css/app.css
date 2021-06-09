@@ -138,11 +138,29 @@ main ul li img {
 .product-info .information .talent {
   width: 50%;
 }
+.product-info .information .talent .art_by {
+  display: flex;
+}
 .product-info .information .talent .art_by .left {
   width: 30%;
+  border-top: 1px solid lightgrey;
 }
 .product-info .information .talent .art_by .right {
   width: 70%;
+  border-top: 1px solid lightgrey;
+}
+.product-info .information .talent .written_by {
+  display: flex;
+}
+.product-info .information .talent .written_by .left {
+  width: 30%;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.product-info .information .talent .written_by .right {
+  width: 70%;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 .product-info .information .specs {
   width: 50%;

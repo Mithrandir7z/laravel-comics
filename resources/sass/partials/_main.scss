@@ -104,18 +104,41 @@ main {
             width: 50%;
 
             .art_by {
+                display: flex;
+
                 .left {
                     width: 30%;
+                    border-top: 1px solid lightgrey;
                 }
 
                 .right {
                     width: 70%;
+                    border-top: 1px solid lightgrey;
+                }
+            }
+
+
+            .written_by {
+                display: flex;
+
+                .left {
+                    width: 30%;
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
+                }
+
+                .right {
+                    width: 70%;
+                    border-top: 1px solid lightgrey;
+                    border-bottom: 1px solid lightgrey;
                 }
             }
         }
 
         .specs {
             width: 50%;
+
+            
         }
     }
 
