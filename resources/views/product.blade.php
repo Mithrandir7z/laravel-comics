@@ -79,8 +79,46 @@
                 </div>
             </div>
 
-            <div class="specs">
-                
+            <div class="talent">
+                <div class="art_by">
+                    <div class="left">
+                        Series: 
+                    </div>
+
+                    <div class="right">
+                        <p>
+                            {{$product['series']}}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="written_by">
+                    <div class="left">
+                        U.S. Price: 
+                    </div>
+
+                    <div class="right">
+                        <p>
+                            <p>
+                                {{$product['price']}}
+                            </p>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="written_by">
+                    <div class="left">
+                        On Sale Date: 
+                    </div>
+
+                    <div class="right">
+                        <p>
+                            <p>
+                                {{$product['sale_date']}}
+                            </p>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
          

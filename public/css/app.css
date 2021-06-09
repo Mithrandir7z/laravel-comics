@@ -127,6 +127,7 @@ main ul li img {
 }
 .product-info .general_container_product .container_right {
   width: 30%;
+  padding: 15px;
 }
 .product-info .general_container_product .container_right h4 {
   text-align: right;
@@ -137,6 +138,7 @@ main ul li img {
 }
 .product-info .information .talent {
   width: 50%;
+  padding-right: 20px;
 }
 .product-info .information .talent .art_by {
   display: flex;
@@ -164,11 +166,18 @@ main ul li img {
 }
 .product-info .information .specs {
   width: 50%;
+  display: flex;
 }
 
 footer {
   background-image: url("../img/footer-bg.jpg");
 }
 footer h3 {
-  color: red;
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  color: white;
 }

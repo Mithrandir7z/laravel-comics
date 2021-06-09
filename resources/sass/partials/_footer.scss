@@ -2,6 +2,14 @@ footer {
     background-image: url("../img/footer-bg.jpg");
 
     h3 {
-        color: red;
+        color: white;
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            color: white;
+        }
     }
 }
