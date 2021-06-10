@@ -23,7 +23,9 @@
                 
                 <!--LOGO-->
                 <div class="logo">
-                    <img src="{{ asset('img/dc-logo.png') }}" alt="">
+                    <a href="/">
+                        <img src="{{ asset('img/dc-logo.png') }}" alt="">
+                    </a>
                 </div>
 
                 <!--INIZIO MENU-->
